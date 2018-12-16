@@ -41,16 +41,15 @@
 	<span class="icon-bar"></span>
 </a>
   <div class="navbar-inner">
-    <a class="brand" href="index.html"><img src="themes/images/logo.png" alt="Bootsshop"/></a>
+    <a class="brand" href="<?php echo site_url('');?>"><img src="themes/images/logo1.png" alt="Cityshop"/></a>
 		<form class="form-inline navbar-search" method="post" action="products.html" >
 		<input id="srchFld" class="srchTxt" type="text" />
 		  <select class="srchTxt">
 			<option>All</option>
-			<option>CLOTHES </option>
-			<option>FOOD AND BEVERAGES </option>
-			<option>HEALTH & BEAUTY </option>
-			<option>SPORTS & LEISURE </option>
-			<option>BOOKS & ENTERTAINMENTS </option>
+			<option>Cameras </option>
+			<option>Computers & Tablets </option>
+			<option>Mobile Phone </option>
+			<option>Sound & Vision </option>
 		</select> 
 		  <button type="submit" id="submitButton" class="btn btn-primary">Go</button>
     </form>
@@ -95,7 +94,16 @@
 		<div class="carousel-inner">
 		  <div class="item active">
 		  <div class="container">
-			<a href="register.html"><img style="width:100%" src="themes/images/carousel/1.png" alt="special offers"/></a>
+			<a href="register.html"><img style="width:100%" src="themes/images/carousel/8.jpg" alt="special offers"/></a>
+			<div class="carousel-caption">
+				  <h4>Second Thumbnail label</h4>
+				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+				</div>
+				 </div>
+		  </div>
+		  <div class="item">
+		  <div class="container">
+			<a href="register.html"><img src="themes/images/carousel/1.jpg" alt=""/></a>
 			<div class="carousel-caption">
 				  <h4>Second Thumbnail label</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -104,7 +112,7 @@
 		  </div>
 		  <div class="item">
 		  <div class="container">
-			<a href="register.html"><img style="width:100%" src="themes/images/carousel/2.png" alt=""/></a>
+			<a href="register.html"><img style="width:100%" src="themes/images/carousel/2.jpg" alt=""/></a>
 				<div class="carousel-caption">
 				  <h4>Second Thumbnail label</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -113,7 +121,7 @@
 		  </div>
 		  <div class="item">
 		  <div class="container">
-			<a href="register.html"><img src="themes/images/carousel/3.png" alt=""/></a>
+			<a href="register.html"><img src="themes/images/carousel/3.jpg" alt=""/></a>
 			<div class="carousel-caption">
 				  <h4>Second Thumbnail label</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -123,7 +131,7 @@
 		  </div>
 		   <div class="item">
 		   <div class="container">
-			<a href="register.html"><img src="themes/images/carousel/4.png" alt=""/></a>
+			<a href="register.html"><img src="themes/images/carousel/7.jpg" alt=""/></a>
 			<div class="carousel-caption">
 				  <h4>Second Thumbnail label</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -133,7 +141,7 @@
 		  </div>
 		   <div class="item">
 		   <div class="container">
-			<a href="register.html"><img src="themes/images/carousel/5.png" alt=""/></a>
+			<a href="register.html"><img src="themes/images/carousel/9.jpg" alt=""/></a>
 			<div class="carousel-caption">
 				  <h4>Second Thumbnail label</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -142,7 +150,7 @@
 		  </div>
 		   <div class="item">
 		   <div class="container">
-			<a href="register.html"><img src="themes/images/carousel/6.png" alt=""/></a>
+			<a href="register.html"><img src="themes/images/carousel/0.jpg" alt=""/></a>
 			<div class="carousel-caption">
 				  <h4>Second Thumbnail label</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -164,37 +172,11 @@
 			<li class="subMenu open"><a> ELECTRONICS [230]</a>
 				<ul>
 				<li><a class="active" href="products.html"><i class="icon-chevron-right"></i>Cameras (100) </a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Computers, Tablets & laptop (30)</a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Mobile Phone (80)</a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Sound & Vision (15)</a></li>
+				<li><a href="computer.html"><i class="icon-chevron-right"></i>Computers, Tablets & laptop (30)</a></li>
+				<li><a href="mobile.html"><i class="icon-chevron-right"></i>Mobile Phone (80)</a></li>
+				<li><a href="sound.html"><i class="icon-chevron-right"></i>Sound & Vision (15)</a></li>
 				</ul>
-			</li>
-			<li class="subMenu"><a> CLOTHES [840] </a>
-			<ul style="display:none">
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Women's Clothing (45)</a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Women's Shoes (8)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Women's Hand Bags (5)</a></li>	
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Men's Clothings  (45)</a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Men's Shoes (6)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Kids Clothing (5)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Kids Shoes (3)</a></li>												
-			</ul>
-			</li>
-			<li class="subMenu"><a>FOOD AND BEVERAGES [1000]</a>
-				<ul style="display:none">
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Angoves  (35)</a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Bouchard Aine & Fils (8)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>French Rabbit (5)</a></li>	
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Louis Bernard  (45)</a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>BIB Wine (Bag in Box) (8)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Other Liquors & Wine (5)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Garden (3)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Khao Shong (11)</a></li>												
-			</ul>
-			</li>
-			<li><a href="products.html">HEALTH & BEAUTY [18]</a></li>
-			<li><a href="products.html">SPORTS & LEISURE [58]</a></li>
-			<li><a href="products.html">BOOKS & ENTERTAINMENTS [14]</a></li>
+			</li
 		</ul>
 		<br/>
 		  <div class="thumbnail">
@@ -230,7 +212,7 @@
 				<li class="span3">
 				  <div class="thumbnail">
 				  <i class="tag"></i>
-					<a href="product_details.html"><img src="themes/images/products/b1.jpg" alt=""></a>
+					<a href="product_details.html"><img src="themes/images/products/a1.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -240,7 +222,7 @@
 				<li class="span3">
 				  <div class="thumbnail">
 				  <i class="tag"></i>
-					<a href="product_details.html"><img src="themes/images/products/b2.jpg" alt=""></a>
+					<a href="product_details.html"><img src="themes/images/products/a2.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -250,7 +232,7 @@
 				<li class="span3">
 				  <div class="thumbnail">
 				  <i class="tag"></i>
-					<a href="product_details.html"><img src="themes/images/products/b3.jpg" alt=""></a>
+					<a href="product_details.html"><img src="themes/images/products/a3.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -260,7 +242,7 @@
 				<li class="span3">
 				  <div class="thumbnail">
 				  <i class="tag"></i>
-					<a href="product_details.html"><img src="themes/images/products/b4.jpg" alt=""></a>
+					<a href="product_details.html"><img src="themes/images/products/a4.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -274,7 +256,7 @@
 				<li class="span3">
 				  <div class="thumbnail">
 				  <i class="tag"></i>
-					<a href="product_details.html"><img src="themes/images/products/5.jpg" alt=""></a>
+					<a href="product_details.html"><img src="themes/images/products/a5.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -284,7 +266,7 @@
 				<li class="span3">
 				  <div class="thumbnail">
 				  <i class="tag"></i>
-					<a href="product_details.html"><img src="themes/images/products/6.jpg" alt=""></a>
+					<a href="product_details.html"><img src="themes/images/products/a6.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -293,7 +275,7 @@
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a href="product_details.html"><img src="themes/images/products/7.jpg" alt=""></a>
+					<a href="product_details.html"><img src="themes/images/products/c1.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -302,47 +284,7 @@
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a href="product_details.html"><img src="themes/images/products/8.jpg" alt=""></a>
-					<div class="caption">
-					  <h5>Product name</h5>
-					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
-					</div>
-				  </div>
-				</li>
-			  </ul>
-			  </div>
-			   <div class="item">
-			  <ul class="thumbnails">
-				<li class="span3">
-				  <div class="thumbnail">
-					<a href="product_details.html"><img src="themes/images/products/9.jpg" alt=""></a>
-					<div class="caption">
-					  <h5>Product name</h5>
-					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
-					</div>
-				  </div>
-				</li>
-				<li class="span3">
-				  <div class="thumbnail">
-					<a href="product_details.html"><img src="themes/images/products/10.jpg" alt=""></a>
-					<div class="caption">
-					  <h5>Product name</h5>
-					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
-					</div>
-				  </div>
-				</li>
-				<li class="span3">
-				  <div class="thumbnail">
-					<a href="product_details.html"><img src="themes/images/products/11.jpg" alt=""></a>
-					<div class="caption">
-					  <h5>Product name</h5>
-					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
-					</div>
-				  </div>
-				</li>
-				<li class="span3">
-				  <div class="thumbnail">
-					<a href="product_details.html"><img src="themes/images/products/1.jpg" alt=""></a>
+					<a href="product_details.html"><img src="themes/images/products/c2.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -355,7 +297,7 @@
 			  <ul class="thumbnails">
 				<li class="span3">
 				  <div class="thumbnail">
-					<a href="product_details.html"><img src="themes/images/products/2.jpg" alt=""></a>
+					<a href="product_details.html"><img src="themes/images/products/c3.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -364,7 +306,7 @@
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a href="product_details.html"><img src="themes/images/products/3.jpg" alt=""></a>
+					<a href="product_details.html"><img src="themes/images/products/c4.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -373,7 +315,47 @@
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a href="product_details.html"><img src="themes/images/products/4.jpg" alt=""></a>
+					<a href="product_details.html"><img src="themes/images/products/17.jpg" alt=""></a>
+					<div class="caption">
+					  <h5>Product name</h5>
+					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
+					</div>
+				  </div>
+				</li>
+				<li class="span3">
+				  <div class="thumbnail">
+					<a href="product_details.html"><img src="themes/images/products/12.jpg" alt=""></a>
+					<div class="caption">
+					  <h5>Product name</h5>
+					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
+					</div>
+				  </div>
+				</li>
+			  </ul>
+			  </div>
+			   <div class="item">
+			  <ul class="thumbnails">
+				<li class="span3">
+				  <div class="thumbnail">
+					<a href="product_details.html"><img src="themes/images/products/00.jpg" alt=""></a>
+					<div class="caption">
+					  <h5>Product name</h5>
+					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
+					</div>
+				  </div>
+				</li>
+				<li class="span3">
+				  <div class="thumbnail">
+					<a href="product_details.html"><img src="themes/images/products/33.jpg" alt=""></a>
+					<div class="caption">
+					  <h5>Product name</h5>
+					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
+					</div>
+				  </div>
+				</li>
+				<li class="span3">
+				  <div class="thumbnail">
+					<a href="product_details.html"><img src="themes/images/products/23.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
@@ -401,7 +383,7 @@
 			  <ul class="thumbnails">
 				<li class="span3">
 				  <div class="thumbnail">
-					<a  href="product_details.html"><img src="themes/images/products/6.jpg" alt=""/></a>
+					<a  href="product_details.html"><img src="themes/images/products/3.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <p> 
@@ -414,7 +396,7 @@
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a  href="product_details.html"><img src="themes/images/products/7.jpg" alt=""/></a>
+					<a  href="product_details.html"><img src="themes/images/products/4.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <p> 
@@ -426,7 +408,7 @@
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a  href="product_details.html"><img src="themes/images/products/8.jpg" alt=""/></a>
+					<a  href="product_details.html"><img src="themes/images/products/5.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <p> 
@@ -438,7 +420,7 @@
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a  href="product_details.html"><img src="themes/images/products/9.jpg" alt=""/></a>
+					<a  href="product_details.html"><img src="themes/images/products/c3.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <p> 
@@ -450,7 +432,7 @@
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a  href="product_details.html"><img src="themes/images/products/10.jpg" alt=""/></a>
+					<a  href="product_details.html"><img src="themes/images/products/a2.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <p> 
@@ -462,7 +444,7 @@
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a  href="product_details.html"><img src="themes/images/products/11.jpg" alt=""/></a>
+					<a  href="product_details.html"><img src="themes/images/products/33.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <p> 
@@ -513,7 +495,7 @@
 				<a href="#"><img width="60" height="60" src="themes/images/youtube.png" title="youtube" alt="youtube"/></a>
 			 </div> 
 		 </div>
-		<p class="pull-right">&copy; Bootshop</p>
+		<p class="pull-right">&copy; Modernshop</p>
 	</div><!-- Container End -->
 	</div>
 <!-- Placed at the end of the document so the pages load faster ============================================= -->
